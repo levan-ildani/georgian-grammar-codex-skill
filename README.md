@@ -58,6 +58,15 @@ georgian-grammar-codex-skill/
 |  |  |- georgia-flag.svg
 |  |  `- georgia-flag.png
 |  `- references/
+|     |- normative-decision-protocol.md
+|     |- grammar-guardrails.md
+|     |- verb-morphology.md
+|     |- morphology-deep-dive.md
+|     |- verb-paradigm-boundary.md
+|     |- compound-writing-rules.md
+|     |- normative-orthography.md
+|     |- syntax-deep-dive.md
+|     `- source-map.md
 |- .github/
 |  `- pull_request_template.md
 |- CONTRIBUTING.md
@@ -71,17 +80,22 @@ georgian-grammar-codex-skill/
 Only the `georgian-grammar/` folder should be installed into Codex. Do not copy the entire repository into your skills directory.
 
 If you cloned or unzipped this repository, run the following commands from the repository root.
+These commands replace any existing local copy so stale files and accidental folder nesting do not survive an update.
 
 ### Windows PowerShell
 
 ```powershell
+$SkillDir = "$HOME\.codex\skills\georgian-grammar"
+
+Remove-Item -Recurse -Force $SkillDir -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
-Copy-Item -Recurse -Force .\georgian-grammar "$HOME\.codex\skills\georgian-grammar"
+Copy-Item -Recurse -Force .\georgian-grammar $SkillDir
 ```
 
 ### macOS / Linux
 
 ```bash
+rm -rf ~/.codex/skills/georgian-grammar
 mkdir -p ~/.codex/skills
 cp -R ./georgian-grammar ~/.codex/skills/georgian-grammar
 ```
@@ -91,6 +105,7 @@ cp -R ./georgian-grammar ~/.codex/skills/georgian-grammar
 ```bash
 git clone https://github.com/levan-ildani/georgian-grammar-codex-skill.git
 cd georgian-grammar-codex-skill
+rm -rf ~/.codex/skills/georgian-grammar
 mkdir -p ~/.codex/skills
 cp -R ./georgian-grammar ~/.codex/skills/georgian-grammar
 ```

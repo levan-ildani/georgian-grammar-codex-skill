@@ -1,6 +1,6 @@
 ---
 name: georgian-grammar
-description: Premium Georgian writing, editing, translation, grammar-question answering, punctuation reasoning, and QA for standard literary Georgian. Use when Codex must write or revise Georgian-language content, proofread Georgian text, translate into Georgian, answer Georgian grammar or punctuation questions, normalize morphology and syntax, choose correct case/postposition/verb agreement, apply polite თქვენ-forms, or do a final grammar pass before sending Georgian output.
+description: Rule-first Georgian writing, editing, translation, grammar-question answering, punctuation reasoning, and QA for standard literary Georgian. Use when Codex must write or revise Georgian-language content, proofread Georgian text, translate into Georgian, answer Georgian grammar or punctuation questions, normalize morphology and syntax, choose correct case/postposition/verb agreement, apply polite თქვენ-forms, or do a final grammar pass before sending Georgian output.
 ---
 
 # Georgian Grammar
@@ -26,6 +26,7 @@ Use this skill as a working grammar filter inside Codex, not as a test-answer me
    - complex syntax, indirect speech, relative clauses, word order, or multi-clause punctuation: `references/syntax-deep-dive.md`
    - cases, postpositions, possessive/reflexive forms, demonstratives, or direction forms: `references/case-and-postposition-rules.md`
    - subject-predicate, numeral, relative-pronoun, or `თქვენ` agreement: `references/agreement-rules.md`
+   - spelling, fixed orthography, numerals, high-risk fixed forms, or compact spelling reminders: `references/normative-orthography.md`
    - specific lexical paradigm, word meaning, or normative dictionary question: `references/lexical-norm-boundary.md`
    - stylistic correctness, semantic precision, concise Georgian wording, or near-synonym choice: `references/style-and-lexical-choice.md`
    - punctuation, direct address, or register: `references/polite-forms-and-punctuation.md`
