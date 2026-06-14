@@ -80,7 +80,13 @@ After copying, restart or reload Codex if the old skill version is still cached.
 
 After installation, you can ask Codex to use the skill directly in the chat.
 
-Reliable explicit form:
+In Codex composer, you can mention the skill directly:
+
+```text
+@georgian-grammar
+```
+
+You can also use an explicit prompt form:
 
 ```text
 Use $georgian-grammar for this task.
@@ -89,14 +95,14 @@ Use $georgian-grammar for this task.
 Examples:
 
 ```text
-Use $georgian-grammar and rewrite this text in correct, natural Georgian.
+@georgian-grammar rewrite this text in correct, natural Georgian.
 ```
 
 ```text
 Use $georgian-grammar when checking grammar and punctuation in the answer.
 ```
 
-You can also mention the skill by name in the composer and tell the agent to use it during the task. For public documentation, prefer `$georgian-grammar` over machine-specific local paths.
+Depending on the Codex UI surface, either `@georgian-grammar` or `$georgian-grammar` may be the clearer way to invoke the skill. Do not use machine-specific local paths in normal chat usage.
 
 ## What This Repository Does Not Include
 
