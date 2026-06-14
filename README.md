@@ -68,12 +68,31 @@ georgian-grammar-codex-skill/
 
 ## Install In Codex
 
-Copy the `georgian-grammar` folder into your local Codex skills directory.
+Only the `georgian-grammar/` folder should be installed into Codex. Do not copy the entire repository into your skills directory.
 
-Windows example:
+If you cloned or unzipped this repository, run the following commands from the repository root.
+
+### Windows PowerShell
 
 ```powershell
-Copy-Item -Recurse -Force .\georgian-grammar $HOME\.codex\skills\georgian-grammar
+New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
+Copy-Item -Recurse -Force .\georgian-grammar "$HOME\.codex\skills\georgian-grammar"
+```
+
+### macOS / Linux
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R ./georgian-grammar ~/.codex/skills/georgian-grammar
+```
+
+### Fresh Clone Example
+
+```bash
+git clone https://github.com/levan-ildani/georgian-grammar-codex-skill.git
+cd georgian-grammar-codex-skill
+mkdir -p ~/.codex/skills
+cp -R ./georgian-grammar ~/.codex/skills/georgian-grammar
 ```
 
 After copying, restart or reload Codex if the old skill version is still cached.
