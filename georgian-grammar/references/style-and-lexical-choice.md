@@ -38,3 +38,44 @@ Pronouns are often grammatically valid but stylistically weak or ambiguous.
 - If the task says "სტილისტურად სწორი", do not stop after grammar; compare economy, meaning, register, and naturalness.
 - If an option sounds elevated, archaic, bureaucratic, or calqued, verify that this register is intended.
 - If two near synonyms survive grammar checks, prefer the one whose semantic scope exactly matches the sentence.
+
+## Common Translation Calques and Idiomatic Alternatives
+
+Avoid direct word-for-word translations from English or Russian that sound unnatural in Georgian:
+
+| English | Bad/Calqued Georgian | Natural/Idiomatic Georgian |
+|---|---|---|
+| "It is important to note that..." | "მნიშვნელოვანია აღინიშნოს, რომ..." | "გაითვალისწინეთ:" or state directly |
+| "In terms of..." | "...თვალსაზრისით" / "...კუთხით" | Restructure or omit |
+| "At the end of the day" | "დღის ბოლოს" | "საბოლოო ჯამში" / "საბოლოოდ" |
+| "When it comes to..." | "როდესაც საქმე ეხება..." | "რაც შეეხება..." or state directly |
+| "The fact that..." | "ის ფაქტი, რომ..." | Omit or use a direct noun phrase |
+
+## Digital, Technical, and AI Terminology
+
+When translating modern tech and AI concepts, use standard industry terms rather than literal or phonetic calques:
+
+| English Term | Georgian Translation (Mkhedruli) | Banned Literal / Calque | Notes / Definition |
+|---|---|---|---|
+| **Reasoning / Thinking Model** | მოაზროვნე მოდელი | აზროვნების მოდელი | Models performing multi-step planning. |
+| **AI / Autonomous Agent** | AI აგენტი / ავტონომიური აგენტი | AI წარმომადგენელი | Autonomous software executing tasks. |
+| **Agentic AI** | აგენტური ხელოვნური ინტელექტი | აგენტური AI | AI systems running complex workflows. |
+| **Computer Use** | კომპიუტერის მართვა | კომპიუტერის გამოყენება | Capabilities of models to control UI directly. |
+| **Vibe Coding** | ინტუიციური კოდირება | ვიბრაციული კოდირება | Intuitive, prompt-based code generation. |
+| **Chain-of-thought (CoT)** | აზროვნების ჯაჭვი | ფიქრის ჯაჭვი | Step-by-step internal reasoning. |
+| **Context Window** | კონტექსტის ფანჯარა | კონტექსტური ფანჯარა | Maximum token volume processed at once. |
+| **Open-weight model** | ღია წონის მოდელი | ღია კოდის მოდელი | Models whose weights are publicly released. |
+| **Frontier model** | მოწინავე / წამყვანი მოდელი | საზღვრისპირა მოდელი | State-of-the-art capable models. |
+| **Tokens / Tokenization** | ტოკენები / ტოკენიზაცია | ნიშნები / სიმბოლოები | Basic text parsing units. |
+| **Deep Reasoning** | ღრმა აზროვნება | ღრმა ფიქრი | Multistep thinking capabilities of models. |
+| **Deployment / Deploy** | დანერგვა / დანერგა | გაუშვა (for software) | "გაუშვა" is product launch. Deploy is "დანერგა". |
+| **Launch / Release** | გამოშვება / გამოუშვა | გაუშვა (for products) | "გაუშვა" = let go. Launch/release = "გამოუშვა". |
+
+## Banned Transliterations of Famous Names
+
+Transliterate names based on English pronunciation rather than strict spelling:
+
+- **Sam Altman** -> `სემ ალტმანი` (Banned: `სემ ოლტმენი`)
+- **Nick Bostrom** -> `ნიკ ბოსტრომი` (Banned: `ნიკ ბოსტრემი`)
+- **Demis Hassabis** -> `დემის ჰასაბისი` (Banned: `დემის ხასაბისი`)
+- **Eliezer Yudkowsky** -> `ელიეზერ იუდკოვსკი` (Banned: `ელიეზერ იუდკოვსკი`)

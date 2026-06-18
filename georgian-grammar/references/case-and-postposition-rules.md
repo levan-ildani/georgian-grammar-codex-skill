@@ -95,3 +95,18 @@ Use the standard directional pronoun forms:
 - `თქვენკენ`
 
 Avoid adding the possessive `-ს` before `-კენ` in these pronoun forms.
+
+## Brand Names and Latin Script Declension
+
+When brand, model, or entity names remain in English/Latin script (e.g., Google, OpenAI, Claude, Gemini, DeepSeek), case declension suffixes must be appended after a hyphen:
+
+- **Nominative (-ი)**: Used when the brand is the subject of a present/future tense statement.
+  - `Google-ი`, `Apple-ი`, `DeepSeek-ი`
+- **Ergative (-მა)**: Used when the brand is the subject of a past-tense transitive verb.
+  - `OpenAI-მა`, `Claude-მა`, `DeepSeek-მა`
+- **Dative/Genitive (-ს / -ის)**: Used for objects, recipient structures, or possession.
+  - `OpenAI-ს`, `Google-ს`, `DeepSeek-ს`, `Claude-ის`
+- **Instrumental (-ით)**: Used when acting via/using the brand/model.
+  - `Gemini-თ`, `Llama-თი`
+- **Adverbial (-ად)**: Used to mean "as/into" the brand.
+  - `OpenAI-ად`
