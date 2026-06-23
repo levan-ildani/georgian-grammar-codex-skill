@@ -98,15 +98,17 @@ Avoid adding the possessive `-ს` before `-კენ` in these pronoun forms.
 
 ## Brand Names and Latin Script Declension
 
-When brand, model, or entity names remain in English/Latin script (e.g., Google, OpenAI, Claude, Gemini, DeepSeek), case declension suffixes must be appended after a hyphen:
+When brand, model, or entity names remain in English/Latin script (e.g., Google, OpenAI, Claude, Gemini, DeepSeek), Georgian case suffixes are usually attached with a hyphen. Do not treat this as a reason to keep every name in Latin script: in ordinary Georgian prose, a natural Georgian transliteration may be better.
 
-- **Nominative (-ი)**: Used when the brand is the subject of a present/future tense statement.
+- **Nominative (-ი)**: Use when the name needs a nominative Georgian ending.
   - `Google-ი`, `Apple-ი`, `DeepSeek-ი`
-- **Ergative (-მა)**: Used when the brand is the subject of a past-tense transitive verb.
+- **Ergative (-მა)**: Use when Georgian syntax requires an ergative-marked subject, most often in aorist-series transitive constructions.
   - `OpenAI-მა`, `Claude-მა`, `DeepSeek-მა`
-- **Dative/Genitive (-ს / -ის)**: Used for objects, recipient structures, or possession.
-  - `OpenAI-ს`, `Google-ს`, `DeepSeek-ს`, `Claude-ის`
-- **Instrumental (-ით)**: Used when acting via/using the brand/model.
-  - `Gemini-თ`, `Llama-თი`
-- **Adverbial (-ად)**: Used to mean "as/into" the brand.
+- **Dative (-ს)**: Use for dative-marked objects, recipients, and many postpositional structures.
+  - `OpenAI-ს`, `Google-ს`, `DeepSeek-ს`
+- **Genitive (-ის)**: Use for possession, relation, or noun-modifying structures.
+  - `Claude-ის`, `OpenAI-ის მოდელი`
+- **Instrumental (-ით)**: Use when acting via or using the brand/model. If the result sounds clumsy, prefer a clearer phrase with `მეშვეობით`.
+  - `Gemini-ით`, `Llama-თი`, `Gemini-ს მეშვეობით`
+- **Adverbial (-ად)**: Use only when the meaning is genuinely "as/into".
   - `OpenAI-ად`

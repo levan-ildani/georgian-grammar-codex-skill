@@ -46,6 +46,19 @@ The goal is to test routing and reasoning, not to create an answer database. Whe
 4. Check spacing around Georgian punctuation marks.
 5. Decide whether a frequent expression is lexicalized or remains a transparent phrase.
 
+## Terminology And Style Prompts
+
+1. Decline a Latin-script model name in Georgian without overclaiming that the name must stay in Latin script.
+2. Choose between `Gemini-ით` and a clearer phrase with `Gemini-ს მეშვეობით`.
+3. Rewrite `მნიშვნელოვანია აღინიშნოს, რომ...` only when the register is too heavy for the target text.
+4. Translate "open-weight model" without confusing open weights with open source.
+5. Translate "deploy" differently for infrastructure placement, production release, and organizational adoption.
+6. Decide whether "launch" should be `გამოშვება`, `რელიზი`, or `გაშვება` from context.
+7. Explain why `გაუშვა` is not universally wrong in product, service, campaign, or process contexts.
+8. Correct a famous AI person's Georgian transliteration while avoiding strict spelling calques.
+9. Decide whether a technical product term such as `skill`, `plugin`, `connector`, `tool`, `API`, or `CLI` should be translated, explained, or kept in Latin script.
+10. Decline Latin-script software/plugin/tool names correctly with hyphenated Georgian suffixes, without mixing translated, Georgianized, and Latin-script forms in the same short passage.
+
 ## Pass Criteria
 
 A maintenance pass is acceptable when the agent:

@@ -41,41 +41,55 @@ Pronouns are often grammatically valid but stylistically weak or ambiguous.
 
 ## Common Translation Calques and Idiomatic Alternatives
 
-Avoid direct word-for-word translations from English or Russian that sound unnatural in Georgian:
+Avoid direct word-for-word translations from English or Russian when they make Georgian sound heavy, bureaucratic, or unnatural. These forms are not all ungrammatical; choose by register and sentence purpose.
 
-| English | Bad/Calqued Georgian | Natural/Idiomatic Georgian |
+| English | Often heavy or over-literal | Prefer when natural |
 |---|---|---|
-| "It is important to note that..." | "მნიშვნელოვანია აღინიშნოს, რომ..." | "გაითვალისწინეთ:" or state directly |
-| "In terms of..." | "...თვალსაზრისით" / "...კუთხით" | Restructure or omit |
-| "At the end of the day" | "დღის ბოლოს" | "საბოლოო ჯამში" / "საბოლოოდ" |
-| "When it comes to..." | "როდესაც საქმე ეხება..." | "რაც შეეხება..." or state directly |
-| "The fact that..." | "ის ფაქტი, რომ..." | Omit or use a direct noun phrase |
+| "It is important to note that..." | "მნიშვნელოვანია აღინიშნოს, რომ..." | `გაითვალისწინეთ:` or state the point directly |
+| "In terms of..." | overusing `...თვალსაზრისით` / `...კუთხით` | Restructure, omit, or use a precise relation |
+| "At the end of the day" | literal `დღის ბოლოს` when not about time | `საბოლოო ჯამში` / `საბოლოოდ` |
+| "When it comes to..." | heavy `როდესაც საქმე ეხება...` | `რაც შეეხება...` or state directly |
+| "The fact that..." | overusing `ის ფაქტი, რომ...` | Omit or use a direct noun phrase |
 
 ## Digital, Technical, and AI Terminology
 
-When translating modern tech and AI concepts, use standard industry terms rather than literal or phonetic calques:
+When translating modern tech and AI concepts, avoid pretending that one Georgian term is always mandatory. Use the clearest term for the audience, and mark uncertain or emerging terminology as context-dependent rather than "wrong".
 
-| English Term | Georgian Translation (Mkhedruli) | Banned Literal / Calque | Notes / Definition |
+| English Term | Prefer / Accept | Avoid as default | Notes |
 |---|---|---|---|
-| **Reasoning / Thinking Model** | მოაზროვნე მოდელი | აზროვნების მოდელი | Models performing multi-step planning. |
-| **AI / Autonomous Agent** | AI აგენტი / ავტონომიური აგენტი | AI წარმომადგენელი | Autonomous software executing tasks. |
-| **Agentic AI** | აგენტური ხელოვნური ინტელექტი | აგენტური AI | AI systems running complex workflows. |
-| **Computer Use** | კომპიუტერის მართვა | კომპიუტერის გამოყენება | Capabilities of models to control UI directly. |
-| **Vibe Coding** | ინტუიციური კოდირება | ვიბრაციული კოდირება | Intuitive, prompt-based code generation. |
-| **Chain-of-thought (CoT)** | აზროვნების ჯაჭვი | ფიქრის ჯაჭვი | Step-by-step internal reasoning. |
-| **Context Window** | კონტექსტის ფანჯარა | კონტექსტური ფანჯარა | Maximum token volume processed at once. |
-| **Open-weight model** | ღია წონის მოდელი | ღია კოდის მოდელი | Models whose weights are publicly released. |
-| **Frontier model** | მოწინავე / წამყვანი მოდელი | საზღვრისპირა მოდელი | State-of-the-art capable models. |
-| **Tokens / Tokenization** | ტოკენები / ტოკენიზაცია | ნიშნები / სიმბოლოები | Basic text parsing units. |
-| **Deep Reasoning** | ღრმა აზროვნება | ღრმა ფიქრი | Multistep thinking capabilities of models. |
-| **Deployment / Deploy** | დანერგვა / დანერგა | გაუშვა (for software) | "გაუშვა" is product launch. Deploy is "დანერგა". |
-| **Launch / Release** | გამოშვება / გამოუშვა | გაუშვა (for products) | "გაუშვა" = let go. Launch/release = "გამოუშვა". |
+| **Reasoning / Thinking Model** | `მოაზროვნე მოდელი`, `მსჯელობის მოდელი` | forcing `აზროვნების მოდელი` everywhere | Models with stronger multi-step reasoning. |
+| **AI / Autonomous Agent** | `AI აგენტი`, `ავტონომიური აგენტი` | `AI წარმომადგენელი` unless it is a human role | Software that can plan or execute tasks. |
+| **Agentic AI** | `აგენტური ხელოვნური ინტელექტი`; `აგენტური AI` is acceptable in technical/casual prose | treating only one form as mandatory | AI systems that run task-oriented workflows. |
+| **Computer Use** | `კომპიუტერის მართვა` for UI-control capabilities | `კომპიუტერის გამოყენება` when the meaning is direct control | Use literal "use" only for ordinary computer use. |
+| **Vibe Coding** | `ინტუიციური კოდირება` or explain the English term | `ვიბრაციული კოდირება` | Emerging term; avoid overstandardizing it. |
+| **Chain-of-thought (CoT)** | `აზროვნების ჯაჭვი`, `მსჯელობის ჯაჭვი` | `ფიქრის ჯაჭვი` in formal technical prose | Step-by-step reasoning term. |
+| **Context Window** | `კონტექსტის ფანჯარა` | overusing `კონტექსტური ფანჯარა` | Maximum context/token volume processed at once. |
+| **Open-weight model** | `ღია წონების მოდელი`, `ღია წონებით გამოქვეყნებული მოდელი` | `ღია კოდის მოდელი` unless source code is actually open | Models whose weights are publicly released. |
+| **Frontier model** | `მოწინავე მოდელი`, `წამყვანი მოდელი` | `საზღვრისპირა მოდელი` | State-of-the-art capable models. |
+| **Tokens / Tokenization** | `ტოკენები`, `ტოკენიზაცია` | `ნიშნები` / `სიმბოლოები` when discussing model tokens | Basic text-processing units. |
+| **Deep Reasoning** | `ღრმა მსჯელობა`, `ღრმა აზროვნება` | `ღრმა ფიქრი` in formal technical prose | Multi-step reasoning capability. |
+| **Deployment / Deploy** | `განთავსება`, `პროდუქციაში გატანა`, `დანერგვა`, or `დეპლოი` by context | forcing `დანერგვა` for every software deploy | `დანერგვა` fits adoption/implementation; `განთავსება` or `პროდუქციაში გატანა` often fits release operations. |
+| **Launch / Release** | `გამოშვება`, `რელიზი`, `გაშვება` by context | treating `გაშვება` as always wrong | Products are often `გამოუშვა`; services, campaigns, and processes may naturally be `გაუშვა`. |
 
-## Banned Transliterations of Famous Names
+## Borrowed Technical Terms And Product Feature Names
 
-Transliterate names based on English pronunciation rather than strict spelling:
+For English technical words that also have an ordinary Georgian meaning, first decide whether the word is being used as a normal concept or as a named software/platform feature.
 
-- **Sam Altman** -> `სემ ალტმანი` (Banned: `სემ ოლტმენი`)
-- **Nick Bostrom** -> `ნიკ ბოსტრომი` (Banned: `ნიკ ბოსტრემი`)
-- **Demis Hassabis** -> `დემის ჰასაბისი` (Banned: `დემის ხასაბისი`)
-- **Eliezer Yudkowsky** -> `ელიეზერ იუდკოვსკი` (Banned: `ელიეზერ იუდკოვსკი`)
+- If the meaning is ordinary and the Georgian equivalent is clear, prefer Georgian: `უნარი`, `ინსტრუმენტი`, `ფუნქცია`, `შესაძლებლობა`, `დამატება`.
+- If the word identifies a specific software feature, plugin type, tool surface, API object, command, file format, package name, or community-recognized product term, keep the Latin-script term so the technical reference remains recognizable.
+- Attach Georgian case suffixes to Latin-script technical names with a hyphen: `skill-ი`, `skill-მა`, `skill-ს`, `skill-ის`, `skill-ით`; `plugin-ი`, `plugin-მა`, `plugin-ს`; `tool-ი`, `tool-მა`, `tool-ს`; `API-ს`, `CLI-ით`.
+- Use the same pattern for product-feature names that are not meant as ordinary vocabulary: `Codex Skill-ი`, `Browser plugin-ი`, `GitHub connector-ი`, `Supabase tool-ი`.
+- On first mention for a mixed audience, add a short Georgian explanation after the technical term: `Codex Skill-ი, ანუ Codex-ისთვის შექმნილი სპეციალური ინსტრუქცია`.
+- Keep one naming style inside a short passage. Do not switch between `skill-ი`, `სკილი`, and `უნარი` unless the text explicitly contrasts the product term with the ordinary meaning.
+- Avoid quotation marks after the first mention unless the text is explicitly defining or discussing the word itself.
+
+For example, in a message to a technical or Codex-aware reader, prefer `ქართული გრამატიკის ეს skill-ი შევქმენი` or `Georgian Grammar Skill-ი შევქმენი`. For a broader audience, prefer `Codex-ისთვის ქართული გრამატიკის skill-ი შევქმენი` and explain briefly if needed.
+
+## Name Transliteration Cautions
+
+Transliterate names based on common English pronunciation rather than strict spelling, but avoid turning these examples into a closed answer list:
+
+- **Sam Altman** -> prefer `სემ ალტმანი`; avoid `სემ ოლტმენი`.
+- **Nick Bostrom** -> prefer `ნიკ ბოსტრომი`; avoid `ნიკ ბოსტრემი`.
+- **Demis Hassabis** -> prefer `დემის ჰასაბისი`; avoid `დემის ხასაბისი`.
+- **Eliezer Yudkowsky** -> prefer `ელიეზერ იუდკოვსკი`; avoid spelling-driven forms such as `ელაიზერ იუდკაუსკი`.
